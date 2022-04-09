@@ -1,0 +1,85 @@
+body{
+  background-color: #f5f6fa;
+}
+.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded {
+    height: 200px;
+} */
+.vaccine__app {
+  margin: 5px;
+}
+.vaccine__app__top {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+}
+.vaccine__app__bottom {
+  height: auto;
+  width: 95%;
+  margin-left: 35px;
+}
+.vaccine__dropdown {
+  background-color: white;
+}
+.MuiPaper-root.MuiCard-root.vaccine__card.MuiPaper-elevation1.MuiPaper-rounded {
+  padding: 20px 20px;
+  height: 500px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.25s ease-in-out;
+}
+.pincode__textfield {
+  width: 380px;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.submit__button {
+  color: white;
+  border: 0;
+  height: 48px;
+  padding: 0 30px;
+  background: linear-gradient(45deg, #3fc83f 30%, #0ae70a 90%);
+  box-shadow: 0 3px 5px 2px rgb(255 105 135 / 30%);
+  border-radius: 6px;
+}
+/* form{
+    align-items: center;
+} */
+.center__sessions{
+  display: flex;
+  justify-content: space-evenly;
+}
+.sessions__data {
+  margin: 20px 20px;
+  line-height: 25px;
+}
+.session__data__bottom{
+  margin: 15px 0;
+}
+.card__footer{
+  display: flex;
+  /* margin-top: 75px; */
+  justify-content: space-between;
+  font-weight: 900;
+  color: lightgrey;
+}
+.center__name {
+  margin: 8px;
+}
+.center__address {
+  margin: 8px;
+}
+.center__state {
+  margin: 8px;
+  font-size: 20px;
+}
+.card__haader {
+  display: flex;
+  justify-content: space-between;
+}
+.MuiPaper-root.MuiCard-root.vaccine__card.MuiPaper-elevation1.MuiPaper-rounded:hover{
+  box-shadow: rgb(0,0,0,0.22) 0px 15px 40px;
+  transform: translate3d(0px,-3px,0px);
+}
+.session__data__top {
+  font-weight: 600;
+}
